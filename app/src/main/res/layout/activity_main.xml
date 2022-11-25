@@ -92,6 +92,7 @@
         android:layout_height="150dp"
         android:layout_marginTop="75dp"
         android:backgroundTint="@android:color/secondary_text_dark"
+        android:onClick="buttonPress5"
         android:text="Search"
         android:textColor="@android:color/tertiary_text_dark"
         android:textSize="50sp"

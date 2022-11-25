@@ -35,4 +35,9 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, SubActivity4.class);
         startActivity(intent);
     }
+
+    public void buttonPress5(View view) {
+        Intent intent = new Intent(this, SearchActivity.class);
+        startActivity(intent);
+    }
 }
