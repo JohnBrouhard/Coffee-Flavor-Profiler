@@ -6,6 +6,7 @@ import android.content.pm.ActivityInfo;
 import android.os.Bundle;
 import android.view.View;
 
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -33,6 +34,11 @@ public class MainActivity extends AppCompatActivity {
 
     public void buttonPress4(View view) {
         Intent intent = new Intent(this, SubActivity4.class);
+        startActivity(intent);
+    }
+
+    public void buttonPress5(View view) {
+        Intent intent = new Intent(this, SearchActivity.class);
         startActivity(intent);
     }
 }

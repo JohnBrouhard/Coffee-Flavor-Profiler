@@ -86,4 +86,19 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
+    <Button
+        android:id="@+id/button"
+        android:layout_width="400dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="75dp"
+        android:backgroundTint="@android:color/secondary_text_dark"
+        android:onClick="buttonPress5"
+        android:text="Search"
+        android:textColor="@android:color/tertiary_text_dark"
+        android:textSize="50sp"
+        app:iconTint="#AF5E5E"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
