@@ -16,28 +16,27 @@ public class MainActivity extends AppCompatActivity {
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
     }
 
-
-    public void buttonPress1(View view) {
-        Intent intent = new Intent(this, SubActivity1.class);
+    public void buttonPressLightRoast(View view) {
+        Intent intent = new Intent(this, LightRoastActivity.class);
         startActivity(intent);
     }
 
-    public void buttonPress2(View view) {
-        Intent intent = new Intent(this, SubActivity2.class);
+    public void buttonPressDarkRoast(View view) {
+        Intent intent = new Intent(this, DarkRoastActivity.class);
         startActivity(intent);
     }
 
-    public void buttonPress3(View view) {
-        Intent intent = new Intent(this, SubActivity3.class);
+    public void buttonPressRegion(View view) {
+        Intent intent = new Intent(this, RegionActivity.class);
         startActivity(intent);
     }
 
-    public void buttonPress4(View view) {
-        Intent intent = new Intent(this, SubActivity4.class);
+    public void buttonPressFlavorProfiles(View view) {
+        Intent intent = new Intent(this, FlavorProfilesActivity.class);
         startActivity(intent);
     }
 
-    public void buttonPress5(View view) {
+    public void buttonPressSearch(View view) {
         Intent intent = new Intent(this, SearchActivity.class);
         startActivity(intent);
     }
