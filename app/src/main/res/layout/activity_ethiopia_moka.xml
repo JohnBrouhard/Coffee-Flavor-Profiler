@@ -8,8 +8,8 @@
 
     <TextView
         android:id="@+id/textView1"
-        android:layout_width="511dp"
-        android:layout_height="106dp"
+        android:layout_width="421dp"
+        android:layout_height="111dp"
         android:text="Ethiopia Moka"
         android:textAlignment="center"
         android:textSize="50sp"
@@ -21,13 +21,37 @@
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="537dp"
-        android:layout_height="531dp"
+        android:layout_width="542dp"
+        android:layout_height="489dp"
         android:text="Description:\n\nExotic, light roasted single origin Arabica coffee with a sharp tangy quality, distinctive winey acidity and floral overtones\n\n\nTasting Notes:\n\nJasmine Florals, Orange, Peach"
         android:textAlignment="center"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="200dp"
+        android:layout_height="135dp"
+        android:backgroundTint="@android:color/secondary_text_dark"
+        android:onClick="buttonPressPanamaLaEsmeraldaGeisha"
+        android:padding="20dip"
+        android:text="Panama La Esmeralda Geisha\n\n31% Simliarity"
+        android:textColor="@android:color/tertiary_text_dark"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="200dp"
+        android:layout_height="140dp"
+        android:backgroundTint="@android:color/secondary_text_dark"
+        android:onClick="buttonPressCompetitionBlend"
+        android:padding="20dip"
+        android:text="Competition Blend\n\n22% Simliarity"
+        android:textColor="@android:color/tertiary_text_dark"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button1" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

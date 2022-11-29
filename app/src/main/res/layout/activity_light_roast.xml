@@ -14,7 +14,7 @@
                 <TextView
                     android:id="@+id/textView6"
                     android:layout_width="16dp"
-                    android:layout_height="78dp"
+                    android:layout_height="100dp"
                     android:layout_column="2"
                     android:text="Light Roasts"
                     android:textAlignment="center"
@@ -31,28 +31,32 @@
                     android:id="@+id/button1"
                     android:layout_width="100dp"
                     android:padding="20dip"
-                    android:text="Column 2" />
+                    android:text="Breakfast \n Blend"
+                    android:onClick="buttonPressAmericanBreakfastBlend"/>
                 <Button
                     android:id="@+id/button2"
                     android:layout_width="100dp"
-                    android:text="Column 2"
-                    android:padding="20dip"/>
+                    android:text="Colombian \n French"
+                    android:padding="20dip"
+                    android:onClick="buttonPressColombianFrench"/>
                 <Button
                     android:id="@+id/button3"
                     android:layout_width="100dp"
-                    android:text="Column 2"
-                    android:padding="20dip"/>
+                    android:text="Colombia \n Reserve"
+                    android:padding="20dip"
+                    android:onClick="buttonPressColombiaReserve"/>
                 <Button
                     android:id="@+id/button4"
                     android:layout_width="100dp"
-                    android:text="Column 2"
-                    android:padding="20dip"/>
-
+                    android:text="Costa Rica La Estrella"
+                    android:padding="20dip"
+                    android:onClick="buttonPressCostaRicaLaEstrella"/>
                 <Button
                     android:id="@+id/button5"
                     android:layout_width="100dp"
                     android:padding="20dip"
-                    android:text="Column 2" />
+                    android:text="Ethiopian \n Moka"
+                    android:onClick="buttonPressEthiopianMoka"/>
 
         </TableRow>
 
@@ -66,28 +70,61 @@
                     android:id="@+id/button11"
                     android:layout_width="100dp"
                     android:padding="20dip"
-                    android:text="Column 2" />
+                    android:text="Guatemala Antigua"
+                    android:onClick="buttonPressGuatemalaAntigua"/>
                 <Button
                     android:id="@+id/button12"
                     android:layout_width="100dp"
-                    android:text="Column 2"
-                    android:padding="20dip"/>
+                    android:text="Hawaiian Golden Blend"
+                    android:padding="20dip"
+                    android:onClick="buttonPressHawaiianGoldenBlend"/>
                 <Button
                     android:id="@+id/button13"
                     android:layout_width="100dp"
-                    android:text="Column 2"
-                    android:padding="20dip"/>
+                    android:text="Heritage \n Blend"
+                    android:padding="20dip"
+                    android:onClick="buttonPressHeritageBlend"/>
                 <Button
                     android:id="@+id/button14"
                     android:layout_width="100dp"
-                    android:text="Column 2"
-                    android:padding="20dip"/>
+                    android:layout_height="match_parent"
+                    android:padding="20dip"
+                    android:text="Kenya AA"
+                    android:onClick="buttonPressKenyaAA"/>
 
                 <Button
                     android:id="@+id/button15"
                     android:layout_width="100dp"
                     android:padding="20dip"
-                    android:text="Column 2" />
+                    android:text="Organic \n Mexico"
+                    android:onClick="buttonPressMexicoOrganic"/>
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="60px">
+
+                <Button
+                    android:id="@+id/button21"
+                    android:layout_width="100dp"
+                    android:padding="20dip"
+                    android:text="Moka Java Ethiopian"
+                    android:onClick="buttonPressMokaJavaEthiopian"/>
+                <Button
+                    android:id="@+id/button22"
+                    android:layout_width="100dp"
+                    android:text="Ethiopian Mystic Lion"
+                    android:padding="20dip"
+                    android:onClick="buttonPressEthiopianMysticLion"/>
+                <Button
+                    android:id="@+id/button23"
+                    android:layout_width="100dp"
+                    android:text="Sumatra Mandheling"
+                    android:padding="20dip"
+                    android:onClick="buttonPressSumatraMandheling"/>
 
         </TableRow>
 

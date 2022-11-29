@@ -16,28 +16,69 @@ public class LightRoastActivity extends AppCompatActivity {
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
     }
 
-    public void buttonPress1(View view) {
+    public void buttonPressAmericanBreakfastBlend(View view) {
         Intent intent = new Intent(this, BreakfastBlendActivity.class);
         startActivity(intent);
     }
 
-    public void buttonPress2(View view) {
+    public void buttonPressColombianFrench(View view) {
         Intent intent = new Intent(this, ColombiaFrenchActivity.class);
         startActivity(intent);
     }
 
-    public void buttonPress3(View view) {
+    public void buttonPressColombiaReserve(View view) {
         Intent intent = new Intent(this, ColombiaReserveActivity.class);
         startActivity(intent);
     }
 
-    public void buttonPress4(View view) {
+    public void buttonPressCostaRicaLaEstrella(View view) {
         Intent intent = new Intent(this, CostaRicaLaEstrellaActivity.class);
         startActivity(intent);
     }
 
-    public void buttonPress5(View view) {
+    public void buttonPressEthiopianMoka(View view) {
         Intent intent = new Intent(this, EthiopiaMokaActivity.class);
         startActivity(intent);
     }
+
+    public void buttonPressGuatemalaAntigua(View view) {
+        Intent intent = new Intent(this, GuatemalaAntiguaActivity.class);
+        startActivity(intent);
+    }
+
+    public void buttonPressHawaiianGoldenBlend(View view) {
+        Intent intent = new Intent(this, HawaiianGoldenBlendActivity.class);
+        startActivity(intent);
+    }
+
+    public void buttonPressHeritageBlend(View view) {
+        Intent intent = new Intent(this, HeritageBlendActivity.class);
+        startActivity(intent);
+    }
+
+    public void buttonPressKenyaAA(View view) {
+        Intent intent = new Intent(this, KenyaAAActivity.class);
+        startActivity(intent);
+    }
+
+    public void buttonPressMexicoOrganic(View view) {
+        Intent intent = new Intent(this, OrganicMexicoActivity.class);
+        startActivity(intent);
+    }
+
+    public void buttonPressMokaJavaEthiopian(View view) {
+        Intent intent = new Intent(this, MokaJavaEthiopianActivity.class);
+        startActivity(intent);
+    }
+
+    public void buttonPressEthiopianMysticLion(View view) {
+        Intent intent = new Intent(this, EthiopiaMysticLionActivity.class);
+        startActivity(intent);
+    }
+
+    public void buttonPressSumatraMandheling(View view) {
+        Intent intent = new Intent(this, SumatraMandhelingActivity.class);
+        startActivity(intent);
+    }
+
 }
