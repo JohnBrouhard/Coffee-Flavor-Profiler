@@ -2,6 +2,7 @@ package com.example.coffeeappv1;
 
 import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
+import android.content.pm.ActivityInfo;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -22,6 +23,7 @@ public class SearchActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_search);
+        setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
 
         ListView listView = findViewById(R.id.listview);
 
@@ -216,7 +218,6 @@ public class SearchActivity extends AppCompatActivity {
                 return false;
             }
         });
-
 
         return super.onCreateOptionsMenu(menu);
     }
