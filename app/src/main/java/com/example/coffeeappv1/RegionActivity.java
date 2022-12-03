@@ -27,7 +27,7 @@ public class RegionActivity extends AppCompatActivity {
     }
 
     public void buttonPressEthiopiaMysticLion(View view) {
-        Intent intent = new Intent(this, EthiopiaMysticLionActivity.class);
+        Intent intent = new Intent(this, EthiopianMysticLionActivity.class);
         startActivity(intent);
     }
 
@@ -86,7 +86,7 @@ public class RegionActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    public void buttonPressSumatraMandhelin(View view) {
+    public void buttonPressSumatraMandheling(View view) {
         Intent intent = new Intent(this, SumatraMandhelingActivity.class);
         startActivity(intent);
     }

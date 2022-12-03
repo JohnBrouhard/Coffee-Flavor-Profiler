@@ -72,7 +72,7 @@ public class LightRoastActivity extends AppCompatActivity {
     }
 
     public void buttonPressEthiopianMysticLion(View view) {
-        Intent intent = new Intent(this, EthiopiaMysticLionActivity.class);
+        Intent intent = new Intent(this, EthiopianMysticLionActivity.class);
         startActivity(intent);
     }
 

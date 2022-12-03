@@ -139,7 +139,7 @@ public class SearchActivity extends AppCompatActivity {
                 case "Decaffeinated Vanilla Nut Cream": startActivity(new Intent(SearchActivity.this, DecaffeinatedVanillaNutCreamActivity.class)); break;
                 case "Espresso Classico": startActivity(new Intent(SearchActivity.this, EspressoClassicoActivity.class)); break;
                 case "Espresso Nuovo": startActivity(new Intent(SearchActivity.this, EspressoNuovoActivity.class)); break;
-                case "Ethiopia Mystic Lion (Natural)": startActivity(new Intent(SearchActivity.this, EthiopiaMysticLionActivity.class)); break;
+                case "Ethiopia Mystic Lion (Natural)": startActivity(new Intent(SearchActivity.this, EthiopianMysticLionActivity.class)); break;
                 case "Ethiopia Moka": startActivity(new Intent(SearchActivity.this, EthiopiaMokaActivity.class)); break;
                 case "European Royale": startActivity(new Intent(SearchActivity.this, EuropeanRoyaleActivity.class)); break;
                 case "French Roast Classic": startActivity(new Intent(SearchActivity.this, FrenchRoastClassicActivity.class)); break;
