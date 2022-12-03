@@ -1,20 +1,142 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tableLayout1"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".RegionActivity">
+    android:stretchColumns="0,1,2,3,4,5">
 
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="413dp"
-        android:layout_height="250dp"
-        android:text="you are at 3"
-        android:textAlignment="center"
-        android:textSize="100sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <TableRow
+        android:id="@+id/tableRow0"
+        android:layout_width="917dp"
+        android:layout_height="613dp"
+        android:padding="5dip">
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="16dp"
+            android:layout_height="100dp"
+            android:layout_column="2"
+            android:text="Region"
+            android:textAlignment="center"
+            android:textSize="40sp" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="60px">
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="100dp"
+            android:padding="20dip"
+            android:text="Costa Rica La Estrella"
+            android:onClick="buttonPressCostaRicaLaEstrella"/>
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="100dp"
+            android:text="Espresso \n Nuovo"
+            android:padding="20dip"
+            android:onClick="buttonPressEspressoNuovo"/>
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="100dp"
+            android:text="Ethiopia Mystic Lion"
+            android:padding="20dip"
+            android:onClick="buttonPressEthiopiaMysticLion"/>
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="100dp"
+            android:text="Guatemala Antigua"
+            android:padding="20dip"
+            android:onClick="buttonPressGuatemalaAntigua"/>
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="100dp"
+            android:padding="20dip"
+            android:text="Guatemala Antigua Dark"
+            android:onClick="buttonPressGuatemalaAntiguaDark"/>
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="60px">
+
+        <Button
+            android:id="@+id/button12"
+            android:layout_width="100dp"
+            android:text="Hawaiian Kona Fancy"
+            android:padding="20dip"
+            android:onClick="buttonPressHawaiianKonaFancy"/>
+        <Button
+            android:id="@+id/button13"
+            android:layout_width="100dp"
+            android:text="Jamaica Blue Mountain Fancy"
+            android:padding="20dip"
+            android:onClick="buttonPressJamaicaBlueMountainFancy"/>
+        <Button
+            android:id="@+id/button14"
+            android:layout_width="100dp"
+            android:padding="20dip"
+            android:text="Kenya \n AA"
+            android:onClick="buttonPressKenyaAA"/>
+        <Button
+            android:id="@+id/button15"
+            android:layout_width="100dp"
+            android:padding="20dip"
+            android:text="Organic Costa Rica"
+            android:onClick="buttonPressOrganicCostaRica"/>
+
+        <Button
+            android:id="@+id/button21"
+            android:layout_width="100dp"
+            android:padding="20dip"
+            android:text="Costa Rica Las Lajas Honey Miel"
+            android:onClick="buttonPressOrganicCostaRicaLasLajasHoneyMiel"/>
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="60px">
+
+        <Button
+            android:id="@+id/button22"
+            android:layout_width="100dp"
+            android:text="Organic \n Mexico"
+            android:padding="20dip"
+            android:onClick="buttonPressOrganicMexico"/>
+        <Button
+            android:id="@+id/button23"
+            android:layout_width="100dp"
+            android:text="Organic \n Peru"
+            android:padding="20dip"
+            android:onClick="buttonPressOrganicPeru"/>
+        <Button
+            android:id="@+id/button24"
+            android:layout_width="100dp"
+            android:text="Organic WP Decaf Mexico"
+            android:padding="20dip"
+            android:onClick="buttonPressOrganicWPDecafMexico"/>
+        <Button
+            android:id="@+id/button25"
+            android:layout_width="100dp"
+            android:text="Panama La Esmeralda Geisha"
+            android:padding="20dip"
+            android:onClick="buttonPressPanamaLaEsmeraldaGeisha"/>
+        <Button
+            android:id="@+id/button26"
+            android:layout_width="100dp"
+            android:text="Sumatra Mandheling"
+            android:padding="20dip"
+            android:onClick="buttonPressSumatraMandheling"/>
+
+    </TableRow>
+
+</TableLayout>

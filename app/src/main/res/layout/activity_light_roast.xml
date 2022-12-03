@@ -1,61 +1,131 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/tableLayout1"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent" >
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="0,1,2,3,4,5">
 
-        <!-- 2 columns -->
+        <TableRow
+            android:id="@+id/tableRow0"
+            android:layout_width="917dp"
+            android:layout_height="613dp"
+            android:padding="5dip">
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="16dp"
+                    android:layout_height="100dp"
+                    android:layout_column="2"
+                    android:text="Light Roasts"
+                    android:textAlignment="center"
+                    android:textSize="40sp" />
+        </TableRow>
+
         <TableRow
             android:id="@+id/tableRow1"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:padding="5dip" >
+            android:minHeight="60px">
 
                 <Button
                     android:id="@+id/button1"
-                    android:text="Column 2" />
-        </TableRow>
-
-        <!-- 3 columns -->
-        <TableRow
-            android:id="@+id/tableRow3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:padding="5dip" >
-
+                    android:layout_width="100dp"
+                    android:padding="20dip"
+                    android:text="Breakfast \n Blend"
+                    android:onClick="buttonPressAmericanBreakfastBlend"/>
                 <Button
                     android:id="@+id/button2"
-                    android:text="Column 2" />
-
+                    android:layout_width="100dp"
+                    android:text="Colombian \n French"
+                    android:padding="20dip"
+                    android:onClick="buttonPressColombianFrench"/>
                 <Button
                     android:id="@+id/button3"
-                    android:text="Column 3" />
-        </TableRow>
-
-        <!-- display this button in 3rd column via layout_column(zero based) -->
-        <TableRow
-            android:id="@+id/tableRow4"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:padding="5dip" >
-
+                    android:layout_width="100dp"
+                    android:text="Colombia \n Reserve"
+                    android:padding="20dip"
+                    android:onClick="buttonPressColombiaReserve"/>
                 <Button
                     android:id="@+id/button4"
-                    android:layout_column="2"
-                    android:text="Column 3" />
-        </TableRow>
-
-        <!-- display this button in 2nd column via layout_column(zero based) -->
-        <TableRow
-            android:id="@+id/tableRow5"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:padding="5dip" >
-
+                    android:layout_width="100dp"
+                    android:text="Costa Rica La Estrella"
+                    android:padding="20dip"
+                    android:onClick="buttonPressCostaRicaLaEstrella"/>
                 <Button
                     android:id="@+id/button5"
-                    android:layout_column="1"
-                    android:text="Column 2" />
+                    android:layout_width="100dp"
+                    android:padding="20dip"
+                    android:text="Ethiopian \n Moka"
+                    android:onClick="buttonPressEthiopianMoka"/>
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="60px">
+
+                <Button
+                    android:id="@+id/button11"
+                    android:layout_width="100dp"
+                    android:padding="20dip"
+                    android:text="Guatemala Antigua"
+                    android:onClick="buttonPressGuatemalaAntigua"/>
+                <Button
+                    android:id="@+id/button12"
+                    android:layout_width="100dp"
+                    android:text="Hawaiian Golden Blend"
+                    android:padding="20dip"
+                    android:onClick="buttonPressHawaiianGoldenBlend"/>
+                <Button
+                    android:id="@+id/button13"
+                    android:layout_width="100dp"
+                    android:text="Heritage \n Blend"
+                    android:padding="20dip"
+                    android:onClick="buttonPressHeritageBlend"/>
+                <Button
+                    android:id="@+id/button14"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:padding="20dip"
+                    android:text="Kenya AA"
+                    android:onClick="buttonPressKenyaAA"/>
+
+                <Button
+                    android:id="@+id/button15"
+                    android:layout_width="100dp"
+                    android:padding="20dip"
+                    android:text="Organic \n Mexico"
+                    android:onClick="buttonPressMexicoOrganic"/>
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="60px">
+
+                <Button
+                    android:id="@+id/button21"
+                    android:layout_width="100dp"
+                    android:padding="20dip"
+                    android:text="Moka Java Ethiopian"
+                    android:onClick="buttonPressMokaJavaEthiopian"/>
+                <Button
+                    android:id="@+id/button22"
+                    android:layout_width="100dp"
+                    android:text="Ethiopian Mystic Lion"
+                    android:padding="20dip"
+                    android:onClick="buttonPressEthiopianMysticLion"/>
+                <Button
+                    android:id="@+id/button23"
+                    android:layout_width="100dp"
+                    android:text="Sumatra Mandheling"
+                    android:padding="20dip"
+                    android:onClick="buttonPressSumatraMandheling"/>
+
         </TableRow>
 
 </TableLayout>

@@ -8,8 +8,8 @@
 
     <TextView
         android:id="@+id/textView1"
-        android:layout_width="511dp"
-        android:layout_height="106dp"
+        android:layout_width="421dp"
+        android:layout_height="111dp"
         android:text="Costa Rica La Estrella"
         android:textAlignment="center"
         android:textSize="50sp"
@@ -21,13 +21,73 @@
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="537dp"
-        android:layout_height="531dp"
+        android:layout_width="542dp"
+        android:layout_height="489dp"
         android:text="Description:\n\nFrom the Doka Estate in Costa Rica,  this full-bodied Arabica coffee has tangy aroma, sparkling acidity and rich overtones.\n\n\nTasting Notes:\n\nHoney, Black Walnut, Bright Acidity"
         android:textAlignment="center"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="200dp"
+        android:layout_height="135dp"
+        android:backgroundTint="@android:color/secondary_text_dark"
+        android:onClick="buttonPressColombiaReserve"
+        android:padding="20dip"
+        android:text="Colombia Reserve\n\n34% Simliarity"
+        android:textColor="@android:color/tertiary_text_dark"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="200dp"
+        android:layout_height="140dp"
+        android:backgroundTint="@android:color/secondary_text_dark"
+        android:onClick="buttonPressOrganicMexico"
+        android:padding="20dip"
+        android:text="Organic Mexico\n\n22% Simliarity"
+        android:textColor="@android:color/tertiary_text_dark"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button1" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="200dp"
+        android:layout_height="135dp"
+        android:backgroundTint="@android:color/secondary_text_dark"
+        android:onClick="buttonPressMajesticBlend"
+        android:padding="20dip"
+        android:text="Majestic Blend\n\n21% Simliarity"
+        android:textColor="@android:color/tertiary_text_dark"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button2" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="200dp"
+        android:layout_height="135dp"
+        android:backgroundTint="@android:color/secondary_text_dark"
+        android:onClick="buttonPressBreakfastBlend"
+        android:padding="20dip"
+        android:text="Breakfast Blend\n\n20% Simliarity"
+        android:textColor="@android:color/tertiary_text_dark"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button3" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="200dp"
+        android:layout_height="135dp"
+        android:backgroundTint="@android:color/secondary_text_dark"
+        android:onClick="buttonPressOrganicOakStreetBlend"
+        android:padding="10dip"
+        android:text="Organic Oak Street Blend\n\n20% Simliarity"
+        android:textColor="@android:color/tertiary_text_dark"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button4" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

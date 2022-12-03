@@ -2,6 +2,7 @@ package com.example.coffeeappv1;
 
 import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
+import android.content.pm.ActivityInfo;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -22,6 +23,7 @@ public class SearchActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_search);
+        setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
 
         ListView listView = findViewById(R.id.listview);
 
@@ -137,7 +139,7 @@ public class SearchActivity extends AppCompatActivity {
                 case "Decaffeinated Vanilla Nut Cream": startActivity(new Intent(SearchActivity.this, DecaffeinatedVanillaNutCreamActivity.class)); break;
                 case "Espresso Classico": startActivity(new Intent(SearchActivity.this, EspressoClassicoActivity.class)); break;
                 case "Espresso Nuovo": startActivity(new Intent(SearchActivity.this, EspressoNuovoActivity.class)); break;
-                case "Ethiopia Mystic Lion (Natural)": startActivity(new Intent(SearchActivity.this, EthiopiaMysticLionActivity.class)); break;
+                case "Ethiopia Mystic Lion (Natural)": startActivity(new Intent(SearchActivity.this, EthiopianMysticLionActivity.class)); break;
                 case "Ethiopia Moka": startActivity(new Intent(SearchActivity.this, EthiopiaMokaActivity.class)); break;
                 case "European Royale": startActivity(new Intent(SearchActivity.this, EuropeanRoyaleActivity.class)); break;
                 case "French Roast Classic": startActivity(new Intent(SearchActivity.this, FrenchRoastClassicActivity.class)); break;
@@ -216,7 +218,6 @@ public class SearchActivity extends AppCompatActivity {
                 return false;
             }
         });
-
 
         return super.onCreateOptionsMenu(menu);
     }

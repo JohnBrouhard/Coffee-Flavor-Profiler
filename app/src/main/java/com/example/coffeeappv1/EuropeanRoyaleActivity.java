@@ -2,6 +2,7 @@ package com.example.coffeeappv1;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.pm.ActivityInfo;
 import android.os.Bundle;
 
 public class EuropeanRoyaleActivity extends AppCompatActivity {
@@ -10,5 +11,6 @@ public class EuropeanRoyaleActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_european_royale);
+        setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
     }
 }

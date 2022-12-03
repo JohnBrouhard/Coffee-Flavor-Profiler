@@ -1,20 +1,168 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tableLayout1"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".DarkRoastActivity">
+    android:stretchColumns="0,1,2,3,4,5">
 
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="413dp"
-        android:layout_height="250dp"
-        android:text="you are at 2"
-        android:textAlignment="center"
-        android:textSize="100sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <TableRow
+        android:id="@+id/tableRow0"
+        android:layout_width="917dp"
+        android:layout_height="613dp"
+        android:padding="5dip">
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="16dp"
+            android:layout_height="100dp"
+            android:layout_column="2"
+            android:text="Dark Roasts"
+            android:textAlignment="center"
+            android:textSize="40sp" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="60px">
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="100dp"
+            android:padding="20dip"
+            android:text="Organic Balthazar Blend"
+            android:onClick="buttonPressOrganicBalthazarBlend"/>
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="100dp"
+            android:text="Colombia Reserve Dark"
+            android:padding="20dip"
+            android:onClick="buttonPressColombiaReserveDark"/>
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="100dp"
+            android:text="Organic Espresso Maranello"
+            android:padding="20dip"
+            android:onClick="buttonPressOrganicEspressoMaranello"/>
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="100dp"
+            android:text="Espresso \n Nuovo"
+            android:padding="20dip"
+            android:onClick="buttonPressEspressoNuovo"/>
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="100dp"
+            android:padding="20dip"
+            android:text="European \n Royale"
+            android:onClick="buttonPressEuropeanRoyale"/>
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="60px">
+
+        <Button
+            android:id="@+id/button11"
+            android:layout_width="100dp"
+            android:padding="20dip"
+            android:text="French Roast Dark Italian"
+            android:onClick="buttonPressFrenchRoastDarkItalian"/>
+        <Button
+            android:id="@+id/button12"
+            android:layout_width="100dp"
+            android:text="French Roast Classic"
+            android:padding="20dip"
+            android:onClick="buttonPressFrenchRoastClassic"/>
+        <Button
+            android:id="@+id/button13"
+            android:layout_width="100dp"
+            android:text="Organic French Roast"
+            android:padding="20dip"
+            android:onClick="buttonPressOrganicFrenchRoast"/>
+        <Button
+            android:id="@+id/button14"
+            android:layout_width="100dp"
+            android:padding="20dip"
+            android:text="Guatemala Antigua Dark"
+            android:onClick="buttonPressGuatemalaAntiguaDark"/>
+        <Button
+            android:id="@+id/button15"
+            android:layout_width="100dp"
+            android:padding="20dip"
+            android:text="Italian Roast Classic"
+            android:onClick="buttonPressItalianRoastClassic"/>
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="60px">
+
+        <Button
+            android:id="@+id/button21"
+            android:layout_width="100dp"
+            android:padding="20dip"
+            android:text="Organic Italian Roast"
+            android:onClick="buttonPressOrganicItalianRoast"/>
+        <Button
+            android:id="@+id/button22"
+            android:layout_width="100dp"
+            android:text="Majestic \n Blend"
+            android:padding="20dip"
+            android:onClick="buttonPressMajesticBlend"/>
+        <Button
+            android:id="@+id/button23"
+            android:layout_width="100dp"
+            android:text="Midnight \n Royale"
+            android:padding="20dip"
+            android:onClick="buttonPressMidnightRoyale"/>
+        <Button
+            android:id="@+id/button24"
+            android:layout_width="100dp"
+            android:text="Millennium \n Joe"
+            android:padding="20dip"
+            android:onClick="buttonPressOrganicFairTradeMillenniumJoe"/>
+        <Button
+            android:id="@+id/button25"
+            android:layout_width="100dp"
+            android:text="Moka Java \n Dark"
+            android:padding="20dip"
+            android:onClick="buttonPressMokaJavaDark"/>
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="60px">
+
+        <Button
+            android:id="@+id/button31"
+            android:layout_width="100dp"
+            android:padding="20dip"
+            android:text="Organic Sumatra Dark"
+            android:onClick="buttonPressOrganicSumatraDark"/>
+        <Button
+            android:id="@+id/button32"
+            android:layout_width="100dp"
+            android:text="President's \n Blend"
+            android:padding="20dip"
+            android:onClick="buttonPressPresidentsPrivateBlend"/>
+        <Button
+            android:id="@+id/button33"
+            android:layout_width="100dp"
+            android:text="Riviera \n French"
+            android:padding="20dip"
+            android:onClick="buttonPressRivieraFrench"/>
+
+    </TableRow>
+
+</TableLayout>

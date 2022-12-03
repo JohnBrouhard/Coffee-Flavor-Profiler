@@ -21,13 +21,73 @@
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="537dp"
-        android:layout_height="531dp"
+        android:layout_width="542dp"
+        android:layout_height="520dp"
         android:text="Description:\n\nA 50/50 blend of light roasted Colombian and French Roast Classic Arabica beans combined for a dark, full-bodied flavor with the sweetness of a light roast. A mellow blend for dark roast lovers who don't want to be overwhelmed\n\n\nTasting Notes:\n\nSweet, Soft, Smoky Notes"
         android:textAlignment="center"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="200dp"
+        android:layout_height="135dp"
+        android:backgroundTint="@android:color/secondary_text_dark"
+        android:onClick="buttonPressDecaffeinatedColombiaFrench"
+        android:padding="20dip"
+        android:text="Decaffeinated Colombia/French\n\n100% Simliarity"
+        android:textColor="@android:color/tertiary_text_dark"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="200dp"
+        android:layout_height="140dp"
+        android:backgroundTint="@android:color/secondary_text_dark"
+        android:onClick="buttonPressDecaffeinatedEuropeanRoyale"
+        android:padding="20dip"
+        android:text="Decaffeinated European Royale\n\n45% Simliarity"
+        android:textColor="@android:color/tertiary_text_dark"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button1" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="200dp"
+        android:layout_height="135dp"
+        android:backgroundTint="@android:color/secondary_text_dark"
+        android:onClick="buttonPressOrganicWPDecafMexico"
+        android:padding="20dip"
+        android:text="Organic WP Decaf Mexico\n\n26% Simliarity"
+        android:textColor="@android:color/tertiary_text_dark"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button2" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="200dp"
+        android:layout_height="135dp"
+        android:backgroundTint="@android:color/secondary_text_dark"
+        android:onClick="buttonPressHotButteredRum"
+        android:padding="20dip"
+        android:text="Hot Buttered Rum\n\n23% Simliarity"
+        android:textColor="@android:color/tertiary_text_dark"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button3" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="200dp"
+        android:layout_height="135dp"
+        android:backgroundTint="@android:color/secondary_text_dark"
+        android:onClick="buttonPressColombiaReserveDark"
+        android:padding="10dip"
+        android:text="Colombia Reserve Dark\n\n22% Simliarity"
+        android:textColor="@android:color/tertiary_text_dark"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button4" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

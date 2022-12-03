@@ -1,21 +1,174 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".FlavorProfilesActivity">
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/tableLayout1"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:stretchColumns="0,1,2,3,4,5">
+
+<TableRow
+    android:id="@+id/tableRow0"
+    android:layout_width="917dp"
+    android:layout_height="613dp"
+    android:padding="5dip">
 
     <TextView
-        android:id="@+id/textView4"
-        android:layout_width="413dp"
-        android:layout_height="250dp"
-        android:text="you are at 4"
+        android:id="@+id/textView6"
+        android:layout_width="16dp"
+        android:layout_height="100dp"
+        android:layout_column="2"
+        android:text="Flavor Profiles"
         android:textAlignment="center"
-        android:textSize="100sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:textSize="40sp" />
+</TableRow>
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+<TableRow
+    android:id="@+id/tableRow1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="60px">
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="100dp"
+        android:padding="20dip"
+        android:text="Bourbon \n Pecan"
+        android:onClick="buttonPressBourbonPecan"/>
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="100dp"
+        android:text="Cappuccino \n Fudge"
+        android:padding="20dip"
+        android:onClick="buttonPressCappuccinoFudge"/>
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="100dp"
+        android:text="Caramel Nut Fudge"
+        android:padding="20dip"
+        android:onClick="buttonPressCaramelNutFudge"/>
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="100dp"
+        android:text="Chocolate Macadamia Nut"
+        android:padding="20dip"
+        android:onClick="buttonPressChocolateMacadamiaNut"/>
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="100dp"
+        android:padding="20dip"
+        android:text="Chocolate Rasberry Cream"
+        android:onClick="buttonPressChocolateRasberryCream"/>
+
+</TableRow>
+
+<TableRow
+    android:id="@+id/tableRow2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="60px">
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="100dp"
+        android:padding="20dip"
+        android:text="Cinnamon \n Bun"
+        android:onClick="buttonPressCinnamonBun"/>
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="100dp"
+        android:text="Cinnamon Fragelico"
+        android:padding="20dip"
+        android:onClick="buttonPressCinnamonFragelico"/>
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="100dp"
+        android:text="Cinnamon Nut Sugar Cookie"
+        android:padding="20dip"
+        android:onClick="buttonPressCinnamonNutSugarCookie"/>
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="100dp"
+        android:padding="20dip"
+        android:text="Dark Chocolate Truffle"
+        android:onClick="buttonPressDarkChocolateTruffle"/>
+    <Button
+        android:id="@+id/button15"
+        android:layout_width="100dp"
+        android:padding="20dip"
+        android:text="Decaffeinated Hazelnut"
+        android:onClick="buttonPressDecaffeinatedHazelnut"/>
+
+</TableRow>
+
+<TableRow
+    android:id="@+id/tableRow3"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="60px">
+
+    <Button
+        android:id="@+id/button21"
+        android:layout_width="100dp"
+        android:padding="20dip"
+        android:text="Decaffeinated Vanilla Nut Cream"
+        android:onClick="buttonPressDecaffeinatedVanillaNutCream"/>
+    <Button
+        android:id="@+id/button22"
+        android:layout_width="100dp"
+        android:text="French \n Vanilla"
+        android:padding="20dip"
+        android:onClick="buttonPressFrenchVanilla"/>
+    <Button
+        android:id="@+id/button23"
+        android:layout_width="100dp"
+        android:text="Hazelnut \n"
+        android:padding="20dip"
+        android:onClick="buttonPressHazelnut"/>
+    <Button
+        android:id="@+id/button24"
+        android:layout_width="100dp"
+        android:text="Hot Buttered \n Rum"
+        android:padding="20dip"
+        android:onClick="buttonPressHotButteredRum"/>
+    <Button
+        android:id="@+id/button25"
+        android:layout_width="100dp"
+        android:text="Irish Shamrock Cream"
+        android:padding="20dip"
+        android:onClick="buttonPressIrishShamrockCream"/>
+
+</TableRow>
+
+<TableRow
+    android:id="@+id/tableRow4"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="60px">
+
+    <Button
+        android:id="@+id/button31"
+        android:layout_width="100dp"
+        android:padding="20dip"
+        android:text="Kahlua \n Cream"
+        android:onClick="buttonPressKahluaCream"/>
+    <Button
+        android:id="@+id/button32"
+        android:layout_width="100dp"
+        android:text="Organic Gorilla Vanilla"
+        android:padding="20dip"
+        android:onClick="buttonPressOrganicGorillaVanilla"/>
+    <Button
+        android:id="@+id/button33"
+        android:layout_width="100dp"
+        android:text="Vanilla Macadamia Nut"
+        android:padding="20dip"
+        android:onClick="buttonPressVanillaMacadamiaNut"/>
+    <Button
+        android:id="@+id/button34"
+        android:layout_width="100dp"
+        android:text="Vanilla Nut \n Cream"
+        android:padding="20dip"
+        android:onClick="buttonPressVanillaNutCream"/>
+
+</TableRow>
+
+</TableLayout>

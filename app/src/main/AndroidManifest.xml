@@ -363,7 +363,7 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".EthiopiaMysticLionActivity"
+            android:name=".EthiopianMysticLionActivity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
