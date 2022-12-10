@@ -13,4 +13,29 @@ public class CinnamonBunActivity extends AppCompatActivity {
         setContentView(R.layout.activity_cinnamon_bun);
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
     }
+
+    public void buttonPressCinnamonNutSugarCookie(View view) {
+        Intent intent = new Intent(this, CinnamonNutSugarCookieActivity.class);
+        startActivity(intent);
+    }
+
+    public void buttonPressCinnamonFrangelico(View view) {
+        Intent intent = new Intent(this, CinnamonFrangelicoActivity.class);
+        startActivity(intent);
+    }
+
+    public void buttonPressOrganicFairTradeMillenniumJoe(View view) {
+        Intent intent = new Intent(this, OrganicFairTradeMillenniumJoeActivity.class);
+        startActivity(intent);
+    }
+
+    public void buttonPressChocolateRaspberryCream(View view) {
+        Intent intent = new Intent(this, ChocolateRaspberryCreamActivity.class);
+        startActivity(intent);
+    }
+
+    public void buttonPressDecaffeinatedEspressoRoast(View view) {
+        Intent intent = new Intent(this, DecaffeinatedEspressoRoastActivity.class);
+        startActivity(intent);
+    }
 }
