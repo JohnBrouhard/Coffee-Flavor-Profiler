@@ -13,4 +13,29 @@ public class DecaffeinatedEuropeanRoyale extends AppCompatActivity {
         setContentView(R.layout.activity_decaffeinated_european_royale);
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
     }
+
+    public void buttonPressEuropeanRoyale(View view) {
+        Intent intent = new Intent(this, EuropeanRoyaleActivity.class);
+        startActivity(intent);
+    }
+
+    public void buttonPressDecaffeinatedColombia(View view) {
+        Intent intent = new Intent(this, DecaffeinatedColombiaActivity.class);
+        startActivity(intent);
+    }
+
+    public void buttonPressMajesticBlend(View view) {
+        Intent intent = new Intent(this, MajesticBlendActivity.class);
+        startActivity(intent);
+    }
+
+    public void buttonPressOrganicFairTradeRendezvousBrew(View view) {
+        Intent intent = new Intent(this, OrganicFairTradeRendezvousBrewActivity.class);
+        startActivity(intent);
+    }
+
+    public void buttonPressOrganicPeru(View view) {
+        Intent intent = new Intent(this, OrganicPeruActivity.class);
+        startActivity(intent);
+    }
 }
