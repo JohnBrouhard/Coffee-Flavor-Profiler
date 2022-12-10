@@ -13,4 +13,29 @@ public class ChocolateMacadamiaNutActivity extends AppCompatActivity {
         setContentView(R.layout.activity_chocolate_macadamia_nut);
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
     }
+
+    public void buttonPressEspressoNuovo(View view) {
+        Intent intent = new Intent(this, EspressoNuovoActivity.class);
+        startActivity(intent);
+    }
+
+    public void buttonPressKahluaCream(View view) {
+        Intent intent = new Intent(this, KahluaCreamActivity.class);
+        startActivity(intent);
+    }
+
+    public void buttonPressCinnamonNutSugarCookie(View view) {
+        Intent intent = new Intent(this, CinnamonNutSugarCookieActivity.class);
+        startActivity(intent);
+    }
+
+    public void buttonPressDecaffeinatedHazelnut(View view) {
+        Intent intent = new Intent(this, DecaffeinatedHazelnutActivity.class);
+        startActivity(intent);
+    }
+
+    public void buttonPressHotButteredRum(View view) {
+        Intent intent = new Intent(this, HotButteredRumActivity.class);
+        startActivity(intent);
+    }
 }
